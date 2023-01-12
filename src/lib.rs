@@ -1,3 +1,5 @@
+mod selection_sort;
+
 pub fn is_sorted<T: Ord>(iterable: &[T]) -> bool {
     for i in 1..iterable.len() {
         if iterable[i] < iterable[i - 1] {
