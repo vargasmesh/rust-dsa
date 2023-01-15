@@ -1,3 +1,4 @@
+mod insertion_sort;
 mod selection_sort;
 
 pub fn is_sorted<T: Ord>(iterable: &[T]) -> bool {
